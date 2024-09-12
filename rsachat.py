@@ -186,7 +186,7 @@ def create_layout():
             [sg.Text('明文消息:', font=FONT)],
             [sg.Multiline(key='-PLAINTEXT-', size=(50, 5), font=FONT, expand_x=True, expand_y=True)],
             [sg.Button('加密', font=BUTTON_FONT, expand_x=True)],
-            [sg.Text('加后的消息:', font=FONT)],
+            [sg.Text('加密后的消息:', font=FONT)],
             [sg.Multiline(key='-CIPHERTEXT-', size=(50, 5), disabled=True, font=FONT, expand_x=True, expand_y=True)]
         ], font=FONT)],
         [sg.Tab('解密', [
